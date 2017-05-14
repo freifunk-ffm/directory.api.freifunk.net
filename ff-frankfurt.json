@@ -47,7 +47,7 @@
     {
       "url": "https://map.ffm.freifunk.net/",
       "interval": "1",
-      "technicalType": "yanic/Meshviewer",
+      "technicalType": "meshviewer",
       "mapType": "geographical"
     },
     {
