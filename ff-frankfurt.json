@@ -19,7 +19,7 @@
     "twitter": "@FreiFunkFFM"
   },
   "state": {
-    "nodes":  596,
+    "nodes": 596,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -27,8 +27,23 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2017-04-26T06:17:02+0200"
+    "lastchange": "2017-05-14T11:35:32.343Z"
   },
+  "timeline": [
+    {
+      "description": "512 Knoten online",
+      "timestamp": "2017-01-13"
+    },
+    {
+      "description": "Babel / l3roamd Gluon Intergations Projekt gewinnt den 3. Platz beim Thomas-Krenn-Award 2017",
+      "timestamp": "2017-03-12",
+      "url": "https://www.thomas-krenn.com/de/tkmag/allgemein/zammad-home-assistant-und-freifunk-das-sind-die-gewinner-des-thomas-krenn-awards-2017/"
+    },
+    {
+      "description": "IPv6 im FFFFM Netz",
+      "timestamp": "2017-03-13"
+    }
+  ],
   "feeds": [
     {
       "name": "ffm.freifunk.net",
@@ -54,7 +69,7 @@
       "url": "https://yanic.ffm.freifunk.net/nodes.json",
       "interval": "1",
       "technicalType": "nodelist",
-      "mapType": "list/status"
+      "mapType": "structural"
     }
   ],
   "support": {
@@ -63,7 +78,19 @@
       "street": "Postfach 160214",
       "zip": "60065",
       "city": "Frankfurt am Main",
-      "email": "info@wifi-frankfurt.de"
+      "email": "vorstand@wifi-frankfurt.de",
+      "board": [
+        "Christof Schulze",
+        "Markus M. May",
+        "Magnus Frühling"
+      ]
+    },
+    "donations": {
+      "bankaccount": {
+        "IBAN": "DE50500502010200568663",
+        "BIC": "HELADEF1822",
+        "usage": "Spende"
+      }
     }
   },
   "techDetails": {
@@ -84,7 +111,10 @@
     "networks": {
       "ipv6": [
         {
-          "network": "fddd:5d16:b5dd::/64"
+          "network": "fddd:5d16:b5dd::/48"
+        },
+        {
+          "network": "2a06:8187:fb00::/40"
         }
       ],
       "ipv4": [
