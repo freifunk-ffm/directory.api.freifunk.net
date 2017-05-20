@@ -30,19 +30,6 @@
     "lastchange": "2017-05-14T11:35:32.343Z"
   },
   "timeline": [
-    {
-      "description": "512 Knoten online",
-      "timestamp": "2017-01-13"
-    },
-    {
-      "description": "Babel / l3roamd Gluon Intergations Projekt gewinnt den 3. Platz beim Thomas-Krenn-Award 2017",
-      "timestamp": "2017-03-12",
-      "url": "https://www.thomas-krenn.com/de/tkmag/allgemein/zammad-home-assistant-und-freifunk-das-sind-die-gewinner-des-thomas-krenn-awards-2017/"
-    },
-    {
-      "description": "IPv6 im FFFFM Netz",
-      "timestamp": "2017-03-13"
-    }
   ],
   "feeds": [
     {
