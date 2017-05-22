@@ -1,7 +1,7 @@
 Anmerkungen
 ===========
-Die Datei ['ff-frankfurt.json'](ff-frankfurt.json) ist die Basis für das API-Gedöns ist.  
-Änderungen werden hier eingepflegt. Diese Datei wird dann ggf. weiterverarbeitet (dynamischer Werten werden angepasst) und dann auf einem Frankfurter Server zur Verfügung gestellt (z.Z. auf [https://api.ffm.freifunk.net/ff-frankfurt.json](https://api.ffm.freifunk.net/ff-frankfurt.json)).
+Die Datei ['ff-frankfurt.json'](ff-frankfurt.json) ist die Basis für das API-Gedöns.  
+Änderungen werden hier eingepflegt. Diese Datei wird dann ggf. weiterverarbeitet (dynamischer Werten werden angepasst) und dann auf einem Frankfurter Server zur Verfügung gestellt (z.Z. als [https://api.ffm.freifunk.net/ff-frankfurt.json](https://api.ffm.freifunk.net/ff-frankfurt.json)).
 
 Es muss veranlasst werden, dass ein Link auf die resultierende Datei in [API-Directory JSON](https://github.com/freifunk/directory.api.freifunk.net/blob/master/directory.json) eingetragen wird.
 
