@@ -68,7 +68,7 @@
     {
       "url": "https://yanic.ffm.freifunk.net/legacy/nodes.json",
       "interval": "1",
-      "technicalType": "nodelist",
+      "technicalType": "meshviewer",
       "mapType": "structural"
     }
   ],
