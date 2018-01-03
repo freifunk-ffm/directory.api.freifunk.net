@@ -66,7 +66,7 @@
       "mapType": "geographical"
     },
     {
-      "url": "https://yanic.ffm.freifunk.net/legacy/nodes.json",
+      "url": "https://yanic.ffm.freifunk.net/nodes.json",
       "interval": "1",
       "technicalType": "meshviewer",
       "mapType": "structural"
