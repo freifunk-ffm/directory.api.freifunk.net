@@ -45,12 +45,6 @@
       "category": "blog",
       "type": "RSS",
       "url": "https://ffm.freifunk.net/feed/"
-    },
-    {
-      "name": "calendar",
-      "category": "ics",
-      "type": "ics",
-      "url": "https://ffm.freifunk.net/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&no_html=true"
     }
   ],
   "nodeMaps": [
@@ -61,7 +55,7 @@
       "mapType": "geographical"
     },
     {
-      "url": "https://yanic.batman15.ffffm.net/meshviewer.json",
+      "url": "https://yanic.batman15.ffffm.net/nodes.json",
       "interval": "1",
       "technicalType": "meshviewer",
       "mapType": "structural"
