@@ -5,12 +5,7 @@
     "city": "Frankfurt am Main",
     "country": "DE",
     "lat": 50.110556,
-    "lon": 8.682222,
-    "address": {
-      "Name": "Depot 1899",
-      "Street": "Textorstrasse 33",
-      "Zipcode": "60594"
-    }
+    "lon": 8.682222
   },
   "contact": {
     "email": "info@wifi-frankfurt.de",
@@ -66,7 +61,7 @@
       "mapType": "geographical"
     },
     {
-      "url": "https://yanic.ffm.freifunk.net/nodes.json",
+      "url": "https://yanic.batman15.ffffm.net/meshviewer.json",
       "interval": "1",
       "technicalType": "meshviewer",
       "mapType": "structural"
@@ -80,8 +75,8 @@
       "city": "Frankfurt am Main",
       "email": "vorstand@wifi-frankfurt.de",
       "board": [
-        "Christof Schulze",
-        "Markus M. May",
+        "Marvin Gaube",
+        "Pawel Borodan",
         "Magnus Frühling"
       ]
     },
@@ -100,18 +95,13 @@
       "docs": "https://ffm.freifunk.net/mitmachen/",
       "vpnaccess": "automatic"
     },
-    "dns": [
-      {
-        "domainname": ".ffffm",
-        "nameserver": [
-          "10.126.255.14"
-        ]
-      }
-    ],
     "networks": {
       "ipv6": [
         {
           "network": "fddd:5d16:b5dd::/48"
+        },
+        {
+          "network": "fd06:8187:fb00::/40"
         },
         {
           "network": "2a06:8187:fb00::/40"
@@ -120,6 +110,9 @@
       "ipv4": [
         {
           "network": "10.126.0.0/16"
+        },
+        {
+          "network": "10.176.0.0/15"
         }
       ]
     },
@@ -132,8 +125,6 @@
       "autoupdate"
     ],
     "legals": [
-      "vpnnational",
-      "vpninternational",
       "institutions"
     ]
   },
